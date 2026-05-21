@@ -1,0 +1,15 @@
+export default function Button({
+  text,
+  onClick,
+  type = "button",
+}) {
+  return (
+    <button
+      className="custom-btn"
+      type={type}
+      onClick={onClick}
+    >
+      {text}
+    </button>
+  );
+}
